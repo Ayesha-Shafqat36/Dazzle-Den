@@ -110,7 +110,7 @@ a {
 /* Footer Part */
 
 footer {
-  background-color: var(--color-232f3e);
+  background-color: #483d38;
 }
 
 footer:not(:first-child) {

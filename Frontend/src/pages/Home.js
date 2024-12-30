@@ -50,7 +50,7 @@ const Home = () => {
   };
 
   const addToWish = (id) => {
-    //alert(id);
+    
     dispatch(addToWishlist(id));
   };
   return (
@@ -367,7 +367,7 @@ const Home = () => {
           {productState &&
             productState?.map((item, index) => {
               if (item.tags === "popular") {
-                alert(item.images[0].url)
+                // alert(item.images[0].url)
                 return (
                   <div key={index} className={"col-3"}>
                     <div className="product-card position-relative">

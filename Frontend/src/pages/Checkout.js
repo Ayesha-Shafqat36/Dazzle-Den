@@ -176,7 +176,7 @@ const Checkout = () => {
         { amount: totalAmount + 100 },
         config
       );
-      alert('kkkk')
+      
 
       if (result.data.success) {
         setClientSecret(result.data.clientSecret);

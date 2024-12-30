@@ -1,5 +1,6 @@
 body {
   font-family: Roboto, sans-serif;
+  background-color: #e6d0b3; /* Beige */
 }
 
 .trigger {
@@ -11,7 +12,7 @@ body {
 }
 
 .trigger:hover {
-  color: #1890ff;
+  color: #7595b3;
 }
 
 .logo {
@@ -21,12 +22,14 @@ body {
 }
 .ant-layout {
   min-height: 100vh;
+  background-color: #e6d0b3; /* Beige */
 }
 .ant-layout-sider {
   flex: 0 0 250px !important;
   max-width: 250px !important;
   min-width: 250px !important;
   width: 250px !important;
+  background-color: #e6d0b3; /* Beige */
 }
 .ant-layout-sider-collapsed {
   flex: 0 0 80px !important;
@@ -34,6 +37,7 @@ body {
   min-width: 80px !important;
   width: 80px !important;
 }
+
 .sm-logo {
   display: none;
 }
@@ -45,14 +49,14 @@ body {
   display: none;
 }
 .logo {
-  background-color: #ffd333;
+  background-color: #5a4942;
   margin: 0;
   height: 64px;
 }
 main {
   height: 85vh;
   overflow-y: scroll;
-  background-color: transparent !important;
+  background-color: #ede4d9 !important; /* Beige */
 }
 main::-webkit-scrollbar {
   width: 0px;

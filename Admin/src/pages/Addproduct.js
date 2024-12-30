@@ -169,7 +169,7 @@ const Addproduct = () => {
       };
 
       console.log(finalValues)
-      alert('')
+      // alert('')
       
       if (getProductId !== undefined) {
         const data = { id: getProductId, productData: finalValues };

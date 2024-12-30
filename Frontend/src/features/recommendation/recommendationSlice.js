@@ -5,7 +5,7 @@ export const getRelatedProducts = createAsyncThunk(
   "recommendation/getRelatedProducts",
   async ({ category, brand, productId }, { rejectWithValue }) => {
     try {
-      alert(category);
+      // alert(category);
       const response = await axios.post("http://localhost:5000/api/product/recommendations", {
         category,
         brand,

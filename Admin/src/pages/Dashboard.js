@@ -120,7 +120,7 @@ const Dashboard = () => {
     xField: "type",
     yField: "income",
     color: ({ type }) => {
-      return "#ffd333";
+      return "#5a4942";
     },
     label: {
       position: "middle",
@@ -150,7 +150,7 @@ const Dashboard = () => {
     xField: "type",
     yField: "income",
     color: ({ type }) => {
-      return "#ffd333";
+      return "#5a4942";
     },
     label: {
       position: "middle",

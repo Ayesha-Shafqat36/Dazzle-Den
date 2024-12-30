@@ -122,6 +122,7 @@ const getAllProduct = asyncHandler(async (req, res) => {
   } catch (error) {
     throw new Error(error);
   }
+  
 });
 const getRecommendations = asyncHandler(async (req, res) => {
   try {

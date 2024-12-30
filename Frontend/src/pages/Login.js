@@ -29,7 +29,7 @@ const Login = () => {
     },
     validationSchema: loginSchema,
     onSubmit: (values) => {
-      alert(values)
+      // alert(values)
       dispatch(loginUser(values));
 
       // setTimeout(() => {

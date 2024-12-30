@@ -37,7 +37,7 @@ const MainLayout = () => {
           </h2>
         </div>
         <Menu
-          theme="dark"
+          theme="light"
           mode="inline"
           defaultSelectedKeys={[""]}
           onClick={({ key }) => {
@@ -47,6 +47,9 @@ const MainLayout = () => {
             } else {
               navigate(key);
             }
+          }}
+          style={{
+            backgroundColor: "#ede4d9", // Light brown color
           }}
           items={[
             {
@@ -173,7 +176,7 @@ const MainLayout = () => {
           className="d-flex justify-content-between ps-1 pe-5"
           style={{
             padding: 0,
-            background: colorBgContainer,
+            background: "#ffffff",
           }}
         >
           {React.createElement(
@@ -189,7 +192,7 @@ const MainLayout = () => {
                 <img
                   width={32}
                   height={32}
-                  src="https://stroyka-admin.html.themeforest.scompiler.ru/variants/ltr/images/customers/customer-4-64x64.jpg"
+                  src="https://cdn-icons-png.freepik.com/256/3200/3200096.png?uid=R140963244&ga=GA1.1.1898576648.1690185571&semt=ais_hybrid"
                   alt=""
                 />
               </div>
@@ -199,7 +202,7 @@ const MainLayout = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <h5 className="mb-0">Ayesha</h5>
+                <h5 className="mb-0">RafiyAyesha</h5>
                 <p className="mb-0">ayeshafqat36@gmail.com</p>
               </div>
               <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -230,7 +233,7 @@ const MainLayout = () => {
             margin: "24px 16px",
             padding: 24,
             minHeight: 280,
-            background: colorBgContainer,
+            background: "#ede4d9",
           }}
         >
           <ToastContainer

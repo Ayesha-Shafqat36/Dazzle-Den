@@ -85,7 +85,7 @@ const Header = () => {
             <div className="col-2">
               <h2>
                 <Link className="text-white" to="/ ">
-                  Cart Corner
+                  Dazzle Den
                 </Link>
               </h2>
             </div>
